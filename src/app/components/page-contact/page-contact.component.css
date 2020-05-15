@@ -1,0 +1,12 @@
+.contact-section{
+  background: url(../../../assets/images/flour-eggs.jpg) no-repeat center center;
+  min-height:50vh;
+  /* filter:blur(2px);
+  -webkit-filter: blur(2px); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: none;
+  color: black;
+}

@@ -12,6 +12,9 @@ import { SpecialtyComponent } from './components/page-landing/specialty/specialt
 import { LocationComponent } from './components/page-landing/location/location.component';
 import { ContactComponent } from './components/page-landing/contact/contact.component';
 import { WhoWeAreComponent } from './components/page-landing/who-we-are/who-we-are.component';
+import { PagePricelistComponent } from './components/page-pricelist/page-pricelist.component';
+import { PageContactComponent } from './components/page-contact/page-contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { WhoWeAreComponent } from './components/page-landing/who-we-are/who-we-a
     SpecialtyComponent,
     LocationComponent,
     ContactComponent,
-    WhoWeAreComponent
+    WhoWeAreComponent,
+    PagePricelistComponent,
+    PageContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

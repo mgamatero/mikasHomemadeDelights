@@ -1,11 +1,13 @@
 .global-title{
-  font-family: 'Pangolin', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 4rem;
   color: rgb(82, 48, 48);
+  margin:0;
 }
 
 .global-subtitle{
   font-family: 'Raleway', sans-serif;
   font-size: 3rem;
   color: rgb(82, 48, 48);
+  margin:0;
 }

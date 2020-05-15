@@ -1,0 +1,21 @@
+
+
+.pricelist-section{
+  background: url(../../../assets/images/kitchen.jpg) no-repeat center center;
+  min-height:65vh;
+  /* filter:blur(2px);
+  -webkit-filter: blur(2px); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: none;
+}
+
+.price-wrapper{
+  padding: 3rem;
+width:75vh;
+  color: black;
+ background-color:rgba(255,255,0,.6);
+ border-radius: 3rem;
+}

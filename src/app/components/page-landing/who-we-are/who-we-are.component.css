@@ -2,6 +2,43 @@
   background-color: rgb(231, 239, 240);
 }
 
+.who-we-are-title{
+
+}
 .who-we-are-text{
 
+}
+
+
+
+
+@media (max-width: 1270px) {
+  .header-text {
+    font-size: 5.3rem;
+    }
+}
+@media (max-width: 1000px) {
+  .header-text {
+    font-size: 4rem;
+    }
+}
+@media (max-width: 800px) {
+  .who-we-are-text {
+    font-size: 1.5rem;
+    }
+
+    .who-we-are-title{
+      font-size:2.8rem;
+    }
+}
+@media (max-width: 650px) {
+  .header-text {
+    font-size: 2rem;
+    }
+    .who-we-are-text {
+      font-size: 1rem;
+      }
+      .who-we-are-title{
+        font-size:1.7rem;
+      }
 }
