@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~9.1.1",
     "@angular/router": "~9.1.1",
     "bootstrap": "^4.5.0",
+    "bootstrap4": "0.0.1-security",
+    "fontawesome": "^5.6.3",
     "jquery": "^3.5.1",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1",

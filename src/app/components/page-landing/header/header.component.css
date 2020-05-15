@@ -1,0 +1,28 @@
+.header-section{
+}
+
+.page-logo{
+
+}
+
+.header-pic{
+
+}
+
+.header-logo{
+
+}
+
+.title{
+  font-size: large;
+  font-family: 'Tinos', serif;
+  font-size: 4.5rem;
+  vertical-align: auto;
+  color: rgb(95, 168, 228) ;
+}
+
+.right-section{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,21 @@
+.mini-gallery-section{
+  background-color: rgb(241, 193, 233);
+  padding:1rem;
+}
+
+.gallery-single-dessert-text{
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.gallery-dessert-title,.mini-gallery-subtitle,.mini-gallery-subtext{
+  color:rgb(82, 48, 48);
+}
+.mini-gallery-subtitle{
+  text-decoration: underline;
+}
+
+
+

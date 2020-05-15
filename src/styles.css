@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.global-title{
+  font-family: 'Pangolin', sans-serif;
+  font-size: 4rem;
+  color: rgb(82, 48, 48);
+}
+
+.global-subtitle{
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: rgb(82, 48, 48);
+}
