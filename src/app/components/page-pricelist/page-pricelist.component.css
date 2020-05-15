@@ -13,9 +13,9 @@
 }
 
 .price-wrapper{
-  padding: 3rem;
-width:75vh;
-  color: black;
- background-color:rgba(255,255,0,.6);
+  padding: 2rem;
+
+  color: rgb(255, 255, 255);
+ background-color:rgba(32, 126, 4, 0.945);
  border-radius: 3rem;
 }
