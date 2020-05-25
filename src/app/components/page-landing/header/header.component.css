@@ -3,8 +3,8 @@
 
 .header-pic{
   background: url(../../../../assets/images/baking-ingredients.jpg) no-repeat center center;
-   filter:blur(2px);
-  -webkit-filter: blur(2px);
+   /* filter:blur(2px);
+  -webkit-filter: blur(2px); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,12 +13,10 @@
 }
 
 .header-pic-wrapper{
-
   position: relative;
 }
 
 .header-text-wrapper{
-
   position: absolute;
   left: 50%;
   top: 50%;
@@ -26,7 +24,7 @@
   border-radius: 8rem;
   /* border: rgb(245, 241, 241) solid 0.2px; */
   background-color: rgba(245, 241, 241,.9);
-  box-shadow: 0px 0px 10px 10px rgba(248, 248, 248, 0.8);
+  /* box-shadow: 0px 0px 10px 10px rgba(248, 248, 248, 0.8); */
 }
 
 .header-text{

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import { ContactComponent} from '../page-landing/contact/contact.component';
 
 @Component({
   selector: 'app-page-contact',
