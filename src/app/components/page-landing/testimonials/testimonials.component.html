@@ -1,0 +1,32 @@
+<section class="testimonials-section p-4">
+
+  <!-- <div class="container my-5 d-flex justify-content-center"> -->
+    <div class="row justify-content-center b">
+    <!-- <div class=" justify-content-center b"> -->
+      <!-- <div class="col-auto mx-sm-4"> -->
+      <!-- <div class="col-auto"> -->
+
+
+
+        <div class="card m-5" *ngFor="let testimony of testimonialData">
+          <div class="card-header bg-white mt-4 border-0">
+            <div class="media "><img class="align-self-center rounded-circle outside img-fluid" src={{testimony.image}}
+                width="70" height="70">
+              <div class="media-body my-auto margin-left">
+                <p class="font-weight-bold mb-0 ">{{testimony.poster}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-body px-sm-5 ">
+            <div class="row">
+              <div class="col">
+                <p class="bold">{{testimony.quote}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+  <!-- </div> -->
+
+</section>

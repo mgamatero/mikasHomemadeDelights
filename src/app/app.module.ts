@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { WhoWeAreComponent } from './components/page-landing/who-we-are/who-we-a
 import { PagePricelistComponent } from './components/page-pricelist/page-pricelist.component';
 import { PageContactComponent } from './components/page-contact/page-contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TestimonialsComponent } from './components/page-landing/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +32,13 @@ import { FooterComponent } from './components/footer/footer.component';
     WhoWeAreComponent,
     PagePricelistComponent,
     PageContactComponent,
-    FooterComponent
+    FooterComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
