@@ -23,15 +23,16 @@
   transform: translate(-50%, -50%);
   border-radius: 8rem;
   /* border: rgb(245, 241, 241) solid 0.2px; */
-  background-color: rgba(245, 241, 241,.9);
-  box-shadow: 0px 0px 13px 13px rgba(248, 248, 248, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 13px 13px rgba(0, 0, 0, 0.8);
 }
 
 .header-text{
-font-size: 7rem;
-word-wrap: break-word;
+font-size: 6rem;
+/* word-wrap: break-word; */
   text-align: center;
   font-weight: bold;
+  color: antiquewhite;
   /* filter: blur(.5px);
   -webkit-filter: blur(.5px); */
 }
